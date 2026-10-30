@@ -20,3 +20,8 @@
 ```bash
 pip install ultralytics pyautogui pydirectinput opencv-python numpy pynput
 pip install -r requirements.txt
+```
+3. **Настройте координаты магазина:**
+   Откройте `app.py` и найдите блок `# --- НАСТРОЙКИ АПГРЕЙДОВ ---`.
+   Наведите мышь на середину кнопки "Курсор" в магазине игры и впишите её координаты в переменные `START_X` и `START_Y`.
+   *(Также убедитесь, что в игре выбрана покупка по "1", а не по 10 или 100).*
