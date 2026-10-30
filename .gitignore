@@ -1,0 +1,49 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# --- YOLOv8 / Данные ---
+# Игнорируем папку с запусками обучения (там весят веса, картинки, графики)
+runs/
+# Игнорируем датасеты (картинки и разметка)
+datasets/
+*.jpg
+*.png
+*.jpeg
+*.xml
+*.txt
+*.json
+uv.lock
+# Но оставляем файл конфигурации датасета (если он у вас есть)
+!data.yaml
+!requirements.txt
+
+
+# YOLO cache files
+*.cache
+
+# Python local version
+.python-version
+
+# --- Модели ---
+# Если веса модели лежат не в runs/, а отдельно
+*.pt
+*.onnx
+*.pth
+
+# --- Настройки IDE и ОС ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

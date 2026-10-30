@@ -1,0 +1,10 @@
+type: yolov8
+name: MyCooker
+display_name: Vitaly
+model_path: ./bestV2.onnx
+nms_threshold: 0.45
+confidence_threshold: 0.25
+classes:
+  -  game
+  -  upgrade
+  -  advertising
